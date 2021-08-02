@@ -94,8 +94,41 @@ function App() {
 						</article>
 					</section>
 				</section>
-				<section className='contact'>
-					<h1>Contact</h1>
+				<section className='App_contact'>
+					<section className='contact_socialContainer'>
+						<h2 className='socialContainer_title'>
+							Estaremos esperando <br></br> tu llamada
+						</h2>
+						<h3 className='socialContainer_quote'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+							labore recusandae error dicta distinctio ea magnam nobis.
+						</h3>
+						<h4 className='socialContainer_social'>
+							Contactanos por medio de nuestras redes sociales
+						</h4>
+						<div className='contact_iconContainer'>
+							<button className='icon'>facebook</button>
+							<button className='icon'>twitter</button>
+							<button className='icon'>instagram</button>
+						</div>
+					</section>
+					<section className='contact_formContainer'>
+						<h2 className='form_title'>Contáctanos</h2>
+						<div className='form_contactNumber'>
+							<button>phone</button>
+							<h3> (555) 802-1234 </h3>
+						</div>
+						<form className='contactForm' action=''>
+							<input type='text' placeholder='nombre' />
+							<input type='email' placeholder='email' />
+							<input type='text' placeholder='número telefonico' />
+							<button className='contactForm_submmitBtn' type='summit'>
+								{" "}
+								Enviar datos{" "}
+							</button>
+						</form>
+						<p>Al enviar mis datos, autorizo ser contactado</p>
+					</section>
 				</section>
 			</main>
 			<footer>
