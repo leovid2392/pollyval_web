@@ -1,3 +1,24 @@
+body {
+	font-family: "Quicksand", sans-serif;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
 .App {
 	text-align: center;
 }
@@ -24,20 +45,11 @@
 	margin: 0px 100px;
 }
 
-.navBar_logoContainer img {
-	width: 100%;
-}
-
 /* <<<<<<<<<<<< NAV BAR >>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<       HERO      >>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .App_hero {
-	/* position: relative; */
-	/* display: flex; */
-	/* height: 700px; */
-	/* align-items: center; */
-	/* justify-content: center; */
 }
 
 .hero_imageContainer {
@@ -48,11 +60,48 @@
 	justify-content: center;
 }
 
-.hero_imageContainer img {
-	width: 100%;
-}
-
 .hero_text {
 	position: absolute;
 }
 /* <<<<<<<<<<<<       HERO      >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<       ABOUT     >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about_sectionTitle {
+	font-size: 100px;
+	font-weight: 300;
+	margin: 80px 0px;
+}
+
+.about_infoContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.about_imgContainer {
+	width: 40%;
+}
+
+.about_info {
+	width: 50%;
+	text-align: start;
+}
+
+.about_infoTitle {
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.about_text {
+	font-size: 30px;
+	font-weight: bold;
+}
+/* <<<<<<<<<<<<      ABOUT      >>>>>>>>>>>>>>>>>>>>>>>>>> */

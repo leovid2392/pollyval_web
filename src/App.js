@@ -33,10 +33,27 @@ function App() {
 					</figure>
 				</section>
 				<section className='about'>
-					<h1>¡Quienes somos?</h1>
+					<h1 className='about_sectionTitle'>¡Quienes somos?</h1>
+					<article className='about_infoContainer'>
+						<figure className='about_imgContainer'>
+							<img
+								src='https://res.cloudinary.com/leovid23/image/upload/v1627771788/pollyval/services_callCenterAgent_k2i9ct.png'
+								alt=''
+							/>
+						</figure>
+						<div className='about_info'>
+							<h5 className='about_infoTitle'>¿Quienes somos?</h5>
+							<p className='about_text'>
+								Somos una empresa líder capacitada para la reactivación de la
+								cartera financiera de tus socios, renegociación, procesos y
+								estadísticas.
+							</p>
+							<button className='btn'>Descubrir más</button>
+						</div>
+					</article>
 				</section>
 				<section className='services'>
-					<h1>Servicios</h1>
+					<h1 className='sectionTitle'>Servicios</h1>
 				</section>
 				<section className='contact'>
 					<h1>Contact</h1>
