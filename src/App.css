@@ -27,6 +27,12 @@ h2 {
 	text-align: center;
 }
 
+.sectionTitle {
+	font-size: 150px;
+	font-weight: 300;
+	margin: 80px 0px;
+}
+
 /* <<<<<<<<<<<< NAV BAR >>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .App_navBar {
@@ -71,7 +77,7 @@ h2 {
 
 /* <<<<<<<<<<<<       ABOUT     >>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-.about {
+.App_about {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -145,3 +151,43 @@ h2 {
 	border-radius: 20px;
 }
 /* <<<<<<<<<<<<      ABOUT      >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<      SERVICES      >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.services_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.service {
+	width: 50%;
+}
+
+.service_imgContainer {
+	position: relative;
+	border-radius: 40px;
+	overflow: hidden;
+}
+
+.service_textBackground {
+	background: white;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 0;
+	padding: 30px;
+}
+.service_textContainer {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.service_title {
+	font-size: 60px;
+}
+
+.service_paragraph {
+	font-size: 25px;
+}
+/* <<<<<<<<<<<<      SERVICES      >>>>>>>>>>>>>>>>>>>>>>>>>> */

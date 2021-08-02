@@ -32,8 +32,8 @@ function App() {
 						/>
 					</figure>
 				</section>
-				<section className='about'>
-					<h1 className='about_sectionTitle'>¡Quienes somos?</h1>
+				<section className='App_about'>
+					<h1 className='sectionTitle'>¿Quienes somos?</h1>
 					<article className='about_infoContainer'>
 						<figure className='about_imgContainer'>
 							<img
@@ -70,8 +70,29 @@ function App() {
 						</div>
 					</div>
 				</section>
-				<section className='services'>
+				<section className='App_services'>
 					<h1 className='sectionTitle'>Servicios</h1>
+					<section className='services_container'>
+						<article className='service'>
+							<figure className='service_imgContainer'>
+								<img
+									src='https://res.cloudinary.com/leovid23/image/upload/v1627771788/pollyval/home_hero_jbin55.png'
+									alt=''
+								/>
+								<div className='service_textBackground'>
+									<div className='service_textContainer'>
+										<h2 className='service_title'>Atención a Socios</h2>
+										<p className='service_paragraph'>
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+											Dolore voluptates, optio nihil similique neque sunt fuga,
+											laborum, corrupti nostrum iste pariatur facere expedita
+											tempora ducimus incidunt
+										</p>
+									</div>
+								</div>
+							</figure>
+						</article>
+					</section>
 				</section>
 				<section className='contact'>
 					<h1>Contact</h1>
