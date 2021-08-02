@@ -51,6 +51,24 @@ function App() {
 							<button className='btn'>Descubrir más</button>
 						</div>
 					</article>
+					<div className='misionVision_container'>
+						<div className='misionVision_categories'>
+							<button>mision</button>
+							<button>visión</button>
+							<button>valores</button>
+						</div>
+						<div className='misionVision_description'>
+							<p>
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Provident odit ipsa doloremque quidem laboriosam natus,
+								inventore ipsam culpa quisquam rerum dolorem architecto facere!
+								Corporis dicta numquam velit maiores excepturi aperiam vitae
+								deleniti dolorum mollitia repellendus sunt, non expedita
+								aliquid, quas doloremque incidunt sit nulla ipsam! non expedita
+								aliquid, quas doloremque incidunt sit nulla ipsam!
+							</p>
+						</div>
+					</div>
 				</section>
 				<section className='services'>
 					<h1 className='sectionTitle'>Servicios</h1>
