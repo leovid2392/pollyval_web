@@ -1,3 +1,10 @@
+import React from "react";
+
+import { MdPhonelinkRing } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 import "./App.css";
 
 function App() {
@@ -107,15 +114,23 @@ function App() {
 							Contactanos por medio de nuestras redes sociales
 						</h4>
 						<div className='contact_iconContainer'>
-							<button className='icon'>facebook</button>
-							<button className='icon'>twitter</button>
-							<button className='icon'>instagram</button>
+							<button className='icon-white'>
+								<FaFacebookF />
+							</button>
+							<button className='icon-white'>
+								<FaTwitter />
+							</button>
+							<button className='icon-white'>
+								<FaInstagram />
+							</button>
 						</div>
 					</section>
 					<section className='contact_formContainer'>
 						<h2 className='form_title'>Contáctanos</h2>
 						<div className='form_contactNumber'>
-							<button>phone</button>
+							<div className='icon'>
+								<MdPhonelinkRing />
+							</div>
 							<h3> (555) 802-1234 </h3>
 						</div>
 						<form className='contactForm' action=''>
@@ -123,11 +138,12 @@ function App() {
 							<input type='email' placeholder='email' />
 							<input type='text' placeholder='número telefonico' />
 							<button className='contactForm_submmitBtn' type='summit'>
-								{" "}
-								Enviar datos{" "}
+								Enviar datos
 							</button>
 						</form>
-						<p>Al enviar mis datos, autorizo ser contactado</p>
+						<p className='form_legals'>
+							Al enviar mis datos, autorizo ser contactado
+						</p>
 					</section>
 				</section>
 			</main>
