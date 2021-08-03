@@ -113,16 +113,23 @@ function App() {
 						<h4 className='socialContainer_social'>
 							Contactanos por medio de nuestras redes sociales
 						</h4>
-						<div className='contact_iconContainer'>
-							<button className='icon-white'>
-								<FaFacebookF />
-							</button>
-							<button className='icon-white'>
-								<FaTwitter />
-							</button>
-							<button className='icon-white'>
-								<FaInstagram />
-							</button>
+
+						<div className='social-iconsContainer'>
+							<a className='social-iconLink' href=''>
+								<span className='icon-white'>
+									<FaFacebookF />
+								</span>
+							</a>
+							<a className='social-iconLink' href=''>
+								<span className='icon-white'>
+									<FaTwitter />
+								</span>
+							</a>
+							<a className='social-iconLink' href=''>
+								<span className='icon-white'>
+									<FaInstagram />
+								</span>
+							</a>
 						</div>
 					</section>
 					<section className='contact_formContainer'>
@@ -147,8 +154,49 @@ function App() {
 					</section>
 				</section>
 			</main>
-			<footer>
-				<h1>Footer</h1>
+			<footer className='App_footer'>
+				<figure className='footer_logoContainer'>
+					<img
+						src='https://res.cloudinary.com/leovid23/image/upload/v1627771819/pollyval/logo_colores_snkf2f.jpg'
+						alt=''
+					/>
+				</figure>
+				<section className='footer_services'>
+					<h3>Servicios</h3>
+					<a href='#'>Atención a socios</a>
+					<a href='#'>PostVenta</a>
+					<a href='#'>Cobranzas y negociación</a>
+					<a href='#'>Porcesos y estadisticas</a>
+					<a href='#'>Marketing digital </a>
+				</section>
+				<section className='footer_contactInfo'>
+					<h3>Contact Info</h3>
+					<div className='contactInfo_item'>
+						<MdPhonelinkRing />
+						<p> +52 (012) 802-2526</p>
+					</div>
+					<div className='contactInfo_item'>
+						<MdPhonelinkRing />
+						<p>infopollyval@gmail.com</p>
+					</div>
+					<div className='social-iconsContainer'>
+						<a className='social-iconLink' href=''>
+							<span className='icon-gold'>
+								<FaFacebookF />
+							</span>
+						</a>
+						<a className='social-iconLink' href=''>
+							<span className='icon-gold'>
+								<FaTwitter />
+							</span>
+						</a>
+						<a className='social-iconLink' href=''>
+							<span className='icon-gold'>
+								<FaInstagram />
+							</span>
+						</a>
+					</div>
+				</section>
 			</footer>
 		</div>
 	);

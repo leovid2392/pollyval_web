@@ -13,7 +13,8 @@ input {
 	font-family: "Quicksand", sans-serif;
 }
 
-figure {
+figure,
+p {
 	margin: 0;
 }
 
@@ -31,15 +32,19 @@ h6 {
 	font-weight: 300;
 }
 
-.icon {
-	display: grid;
-}
-
 .icon-white {
 	color: var(--color-white);
 	background: transparent;
 	border: none;
-	font-size: 50px;
+	/* font-size: 50px; */
+	display: grid;
+}
+
+.icon-gold {
+	color: var(--color-primary);
+	background: transparent;
+	border: none;
+	/* font-size: 50px; */
 	display: grid;
 }
 
@@ -246,13 +251,12 @@ h6 {
 	font-weight: bold;
 	margin-bottom: 30px;
 }
-.contact_iconContainer {
+
+.App_contact .social-iconsContainer {
 	display: flex;
 	justify-content: space-between;
+	font-size: 50px;
 	width: 300px;
-}
-.contact_iconContainer button {
-	margin-right: 20px;
 }
 
 .contact_formContainer {
@@ -324,4 +328,55 @@ h6 {
 	font-size: 20px;
 }
 
-/* <<<<<<<<<<<<     CONTACT      >>>>>>>>>>>>>>>>>>>>>>>>>> */ ;
+/* <<<<<<<<<<<<     CONTACT      >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<      FOOTER      >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.App_footer {
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.App_footer h3 {
+	font-size: 30px;
+}
+
+.footer_logoContainer {
+	width: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.footer_services,
+.footer_contactInfo {
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+}
+
+.footer_services a {
+	text-decoration: none;
+	color: var(--color-darkBlue);
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.contactInfo_item {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+.contactInfo_item p {
+	margin-left: 10px;
+}
+
+.App_footer .social-iconsContainer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 40px;
+	margin-top: 20px;
+}
+/* <<<<<<<<<<<<      FOOTER      >>>>>>>>>>>>>>>>>>>>>>>>>> */ ;
