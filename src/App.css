@@ -99,6 +99,11 @@ h6 {
 .hero_text {
 	position: absolute;
 }
+
+.hero_text h1 {
+	font-size: 70px;
+	margin-top: 20px;
+}
 /* <<<<<<<<<<<<       HERO      >>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<       ABOUT     >>>>>>>>>>>>>>>>>>>>>>>>>> */

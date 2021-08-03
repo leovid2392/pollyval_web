@@ -30,7 +30,9 @@ function App() {
 				<section className='App_hero'>
 					<figure className='hero_imageContainer'>
 						<div className='hero_text'>
-							<h1>Join us and double your earns in 6 months</h1>
+							<h1>
+								Join us <br /> and double your earns in 6 months
+							</h1>
 							<button>See how</button>
 						</div>
 						<img
