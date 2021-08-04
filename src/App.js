@@ -5,12 +5,15 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
+import Navbar from './navBar/Navbar'
+
 import "./App.css";
 
 function App() {
 	return (
 		<div className='App'>
-			<header className='App_navBar'>
+			<Navbar/>
+			{/* <header className='App_navBar'>
 				<div className='navBar_links'>
 					<a href='#'>Home</a>
 					<a href='#'>Services</a>
@@ -25,8 +28,8 @@ function App() {
 					<a href=''>About</a>
 					<a href=''>Contact</a>
 				</div>
-			</header>
-			<main>
+			</header> */}
+			{/* <main>
 				<section className='App_hero'>
 					<figure className='hero_imageContainer'>
 						<div className='hero_text'>
@@ -199,7 +202,7 @@ function App() {
 						</a>
 					</div>
 				</section>
-			</footer>
+			</footer> */}
 		</div>
 	);
 }
