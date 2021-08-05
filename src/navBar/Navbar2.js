@@ -4,9 +4,9 @@ import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { links, social } from "../data";
 
-import "./Navbar.css";
+import "./Navbar2.css";
 
-function Navbar() {
+function Navbar2() {
 	const [showLinks, setShowLinks] = useState(false);
 
 	return (
@@ -71,4 +71,4 @@ function Navbar() {
 	);
 }
 
-export default Navbar;
+export default Navbar2;

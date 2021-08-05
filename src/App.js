@@ -5,14 +5,15 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-import Navbar from './navBar/Navbar'
+import Navbar from "./navBar/Navbar";
+import Navbar2 from "./navBar/Navbar2";
 
 import "./App.css";
 
 function App() {
 	return (
 		<div className='App'>
-			<Navbar/>
+			<Navbar />
 			{/* <header className='App_navBar'>
 				<div className='navBar_links'>
 					<a href='#'>Home</a>
