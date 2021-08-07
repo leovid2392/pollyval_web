@@ -65,8 +65,6 @@ function Navbar() {
 					</li>
 				</ul>
 			</div>
-
-			<h1>hola mundo</h1>
 		</nav>
 	);
 }

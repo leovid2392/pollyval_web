@@ -1,0 +1,243 @@
+.home_about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.about_description {
+	margin-bottom: 30px;
+}
+
+.home_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about_image {
+	max-width: 300px;
+	margin-bottom: 10px;
+}
+
+.about_info {
+	width: 300px;
+}
+
+.about_text {
+	font-size: 1rem;
+	color: var(--color-grey);
+	/* width: 300px; */
+	/* width: 50%; */
+}
+
+.about_misionVision {
+	margin-bottom: 50px;
+	max-width: 350px;
+}
+
+.misionVision_titleContainer {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: -5px;
+	/* margin-bottom: 10px; */
+}
+
+.misionVision_titleContainer button {
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	background: transparent;
+}
+
+.misionVision_titleContainer button:hover {
+	color: var(--color-white);
+	background: var(--color-primary);
+}
+
+.misionVision_descriptionContainer {
+	padding: 20px;
+	color: var(--color-white);
+	background: var(--color-primary);
+	border-radius: 10px;
+}
+
+@media screen and (min-width: 540px) {
+	.home_content {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about_image {
+		max-width: 350px;
+		width: 40%;
+	}
+
+	.about_info {
+		width: 40%;
+		text-align: start;
+		margin-left: 40px;
+	}
+
+	.about_text {
+		font-size: 1.1rem;
+	}
+
+	.about_misionVision {
+		display: flex;
+		justify-content: center;
+	}
+
+	.misionVision_titleContainer {
+		flex-direction: column;
+		/* justify-content: center; */
+		width: 30%;
+		margin-right: -20px;
+	}
+
+	.misionVision_titleContainer button {
+		font-size: 1.5rem;
+	}
+
+	.misionVision_descriptionContainer {
+		width: 60%;
+	}
+
+	.about_misionVision {
+		max-width: 4000px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.about_text {
+		font-size: 1.4rem;
+	}
+}
+
+.misionVision_titleContainer button {
+	/* font-size: 1.6rem; */
+}
+
+@media screen and (min-width: 800px) {
+	.about_text {
+		font-size: 1.6rem;
+	}
+
+	.misionVision_text {
+		font-size: 1.2rem;
+	}
+
+	.misionVision_titleContainer button {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.about_info {
+		margin-left: 60px;
+	}
+
+	.about_text {
+		font-size: 1.8rem;
+	}
+
+	.misionVision_titleContainer {
+		width: 25%;
+	}
+
+	.misionVision_titleContainer button {
+		font-size: 1.9rem;
+	}
+
+	.misionVision_descriptionContainer {
+		padding: 30px;
+		border-radius: 30px;
+	}
+
+	.misionVision_text {
+		font-size: 1.4rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.about_info {
+		margin-left: 100px;
+	}
+
+	.about_text {
+		font-size: 2rem;
+	}
+
+	.misionVision_titleContainer button {
+		font-size: 2.5rem;
+	}
+
+	.misionVision_text {
+		font-size: 1.6rem;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.misionVision_text {
+		font-size: 1.9rem;
+	}
+
+	.misionVision_titleContainer button {
+		font-size: 3rem;
+	}
+
+	.misionVision_descriptionContainer {
+		border-radius: 40px;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.misionVision_titleContainer button {
+		font-size: 5rem;
+	}
+
+	.misionVision_descriptionContainer {
+		padding: 50px;
+	}
+	.misionVision_text {
+		font-size: 2.7rem;
+	}
+}
+
+@media screen and (min-width: 2400px) {
+	.misionVision_titleContainer button {
+		font-size: 6rem;
+	}
+
+	.misionVision_descriptionContainer {
+		padding: 80px;
+	}
+	.misionVision_text {
+		font-size: 3rem;
+	}
+}
+
+/* @media screen and (min-width: 540px) {
+	.home_content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about_image {
+		width: 40%;
+		margin-right: 30px;
+	}
+
+	.about_info {
+		width: 40%;
+	}
+
+	.about_text {
+		font-size: 1.1rem;
+		text-align: start;
+	}
+} */

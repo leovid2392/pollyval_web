@@ -6,30 +6,19 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 import Navbar from "./navBar/Navbar";
-import Navbar2 from "./navBar/Navbar2";
+import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
 
-import "./App.css";
+// import "./App.css";
 
 function App() {
 	return (
 		<div className='App'>
 			<Navbar />
-			{/* <header className='App_navBar'>
-				<div className='navBar_links'>
-					<a href='#'>Home</a>
-					<a href='#'>Services</a>
-				</div>
-				<figure className='navBar_logoContainer'>
-					<img
-						src='https://res.cloudinary.com/leovid23/image/upload/v1627771819/pollyval/logo_colores_snkf2f.jpg'
-						alt='logo'
-					/>
-				</figure>
-				<div className='navBar_links'>
-					<a href=''>About</a>
-					<a href=''>Contact</a>
-				</div>
-			</header> */}
+			<main>
+				{/* <Hero /> */}
+				<About />
+			</main>
 			{/* <main>
 				<section className='App_hero'>
 					<figure className='hero_imageContainer'>

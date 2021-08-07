@@ -57,3 +57,37 @@ ul {
 a {
 	text-decoration: none;
 }
+
+.App {
+	position: relative;
+	overflow: hidden;
+}
+
+/* <<<<<<<<<<<<<<<<<----GENERAL CLASES------>>>>>>>>>>>>>> */
+
+.sectionTitle {
+	font-size: 2rem;
+	color: var(--color-darkBlue);
+	margin: 20px 0;
+}
+
+@media screen and (min-width: 540px) {
+	.sectionTitle {
+		font-size: 3rem;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.sectionTitle {
+		font-size: 4rem;
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.sectionTitle {
+		font-size: 5rem;
+	}
+}
+
+/* <<<<<<<<<<<<<<<<<----GENERAL CLASES------>>>>>>>>>>>>>> */
