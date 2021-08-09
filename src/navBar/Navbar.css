@@ -153,3 +153,46 @@ nav {
 		font-size: 1.2rem;
 	}
 }
+
+@media screen and (min-width: 1400px) {
+	.home_nav {
+		padding: 30px;
+	}
+
+	.nav_links {
+		width: 300px;
+	}
+	.nav_links a {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.home_nav {
+		padding: 40px;
+	}
+
+	.home_nav img {
+		width: 600px;
+		margin: 0 150px;
+	}
+
+	.nav_links {
+		width: 400px;
+	}
+
+	.nav_links a {
+		font-size: 2.1rem;
+	}
+}
+
+@media screen and (min-width: 2400px) {
+	.home_nav img {
+		width: 650px;
+		margin: 0 200px;
+	}
+
+	.nav_links a {
+		font-size: 2.4rem;
+	}
+}

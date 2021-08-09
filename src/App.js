@@ -8,6 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 import Navbar from "./navBar/Navbar";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
+import Services from "./components/services/Services";
 
 // import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
 			<main>
 				{/* <Hero /> */}
 				<About />
+				<Services />
 			</main>
 			{/* <main>
 				<section className='App_hero'>

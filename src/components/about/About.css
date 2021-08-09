@@ -17,7 +17,8 @@
 }
 
 .about_image {
-	max-width: 300px;
+	/* max-width: 300px; */
+	max-width: 350px;
 	margin-bottom: 10px;
 }
 
@@ -72,7 +73,7 @@
 	}
 
 	.about_image {
-		max-width: 350px;
+		max-width: 800px;
 		width: 40%;
 	}
 
@@ -136,6 +137,10 @@
 }
 
 @media screen and (min-width: 1000px) {
+	.about_description {
+		margin-bottom: 80px;
+	}
+
 	.about_info {
 		margin-left: 60px;
 	}
@@ -168,7 +173,7 @@
 	}
 
 	.about_text {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
 
 	.misionVision_titleContainer button {
@@ -181,6 +186,10 @@
 }
 
 @media screen and (min-width: 1400px) {
+	.about_text {
+		font-size: 2.8rem;
+	}
+
 	.misionVision_text {
 		font-size: 1.9rem;
 	}
@@ -195,6 +204,14 @@
 }
 
 @media screen and (min-width: 2000px) {
+	.about_description {
+		margin-bottom: 150px;
+	}
+
+	.about_text {
+		font-size: 4rem;
+	}
+
 	.misionVision_titleContainer button {
 		font-size: 5rem;
 	}
@@ -208,6 +225,14 @@
 }
 
 @media screen and (min-width: 2400px) {
+	.about_text {
+		font-size: 4.2rem;
+	}
+
+	.about_info {
+		margin-left: 200px;
+	}
+
 	.misionVision_titleContainer button {
 		font-size: 6rem;
 	}

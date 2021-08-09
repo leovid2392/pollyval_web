@@ -1,10 +1,12 @@
 :root {
 	--color-primary: #af7213;
-	--color-darkBlue: #000d43;
 	--color-dark: #19191a;
 	--color-grey: #a8a8a8;
 	--color-white: #fff;
 	--color-black: #000;
+
+	--color-darkBlue: #000d43;
+	--color-darkBlue-opacity60: rgba(0, 13, 67, 0.63);
 
 	--transition: all 0.3s linear;
 }
@@ -84,9 +86,26 @@ a {
 	}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
 	.sectionTitle {
 		font-size: 5rem;
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.sectionTitle {
+		font-size: 7rem;
+	}
+}
+@media screen and (min-width: 2000px) {
+	.sectionTitle {
+		font-size: 10rem;
+	}
+}
+@media screen and (min-width: 2400px) {
+	.sectionTitle {
+		font-size: 12rem;
 	}
 }
 
