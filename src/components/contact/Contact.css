@@ -24,14 +24,14 @@
 	margin-bottom: 20px;
 }
 
-.social-iconsContainer {
+.contact_socialContainer .social-iconsContainer {
 	width: 70%;
 	display: flex;
 	justify-content: space-between;
 	margin-top: 20px;
 }
 
-.social-iconLink {
+.contact_socialContainer .social-iconLink {
 	font-size: 2rem;
 }
 
@@ -137,8 +137,8 @@
 		font-size: 1.5rem;
 	}
 
-	.social-iconLink {
-		font-size: 2.5rem;
+	.contact_socialContainer .social-iconLink {
+		font-size: 3rem;
 	}
 
 	.contact_formContainer {
@@ -192,7 +192,7 @@
 		margin-bottom: 40px;
 	}
 
-	.social-iconLink {
+	.contact_socialContainer .social-iconLink {
 		font-size: 5rem;
 	}
 

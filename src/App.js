@@ -1,15 +1,11 @@
 import React from "react";
 
-import { MdPhonelinkRing } from "react-icons/md";
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-
 import Navbar from "./navBar/Navbar";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 // import "./App.css";
 
@@ -23,6 +19,7 @@ function App() {
 				<Services />
 				<Contact />
 			</main>
+			<Footer />
 			{/* <main>
 				<section className='App_hero'>
 					<figure className='hero_imageContainer'>

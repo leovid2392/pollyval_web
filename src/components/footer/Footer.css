@@ -1,0 +1,142 @@
+.home_footer {
+	background: var(--color-primary);
+	color: var(--color-white);
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	text-align: center;
+}
+
+.footer_logoImage {
+	width: 250px;
+	margin: 30px 0;
+}
+
+.footer_services {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.footer_services a {
+	color: var(--color-white);
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+}
+
+.footer_contactInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer_contactInfo .social-iconsContainer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.footer_contactInfo .social-iconLink {
+	font-size: 2rem;
+}
+.contactInfo_item {
+	display: flex;
+	align-items: center;
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+	/* height: 20px; */
+}
+
+.contactInfo_item p {
+	margin-left: 10px;
+}
+
+.contactInfo_item span {
+	font-size: 1.8rem;
+}
+
+.footer_sectionTitle {
+	font-size: 2rem;
+	margin-bottom: 15px;
+}
+
+@media screen and (min-width: 540px) {
+	.footer_info {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		text-align: start;
+	}
+
+	.footer_services {
+		margin: 0;
+	}
+
+	.footer_contactInfo {
+		align-items: start;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.home_footer {
+		flex-direction: row;
+		padding: 30px;
+	}
+
+	.footer_logoImage {
+		width: 150px;
+	}
+
+	.footer_sectionTitle {
+		font-size: 1.5rem;
+	}
+
+	.footer_services a {
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.footer_logoImage {
+		width: 300px;
+	}
+
+	.footer_sectionTitle {
+		font-size: 2rem;
+	}
+
+	.footer_services a,
+	.contactInfo_item p {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.home_footer {
+		padding: 30px 60px;
+	}
+	.footer_logoImage {
+		width: 500px;
+	}
+
+	.footer_sectionTitle {
+		font-size: 4rem;
+	}
+
+	.footer_services a,
+	.contactInfo_item p {
+		font-size: 1.8rem;
+	}
+
+	.contactInfo_item {
+		font-size: 1.8rem;
+	}
+
+	.footer_contactInfo .social-iconLink {
+		font-size: 4.5rem;
+	}
+}

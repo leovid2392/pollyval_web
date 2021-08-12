@@ -5,6 +5,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
+import SocialIcons from "../../components/socialIcons/SocialIcons";
+
 import "./Contact.css";
 
 function Contact() {
@@ -21,23 +23,8 @@ function Contact() {
 					</p>
 					<h3>Contactanos por medio de nuestras redes sociales</h3>
 				</div>
-				<div className='social-iconsContainer'>
-					<a className='social-iconLink' href=''>
-						<span className='icon-white'>
-							<FaFacebookF />
-						</span>
-					</a>
-					<a className='social-iconLink' href=''>
-						<span className='icon-white'>
-							<FaTwitter />
-						</span>
-					</a>
-					<a className='social-iconLink' href=''>
-						<span className='icon-white'>
-							<FaInstagram />
-						</span>
-					</a>
-				</div>
+
+				<SocialIcons iconColor='icon-white' />
 			</section>
 			<section className='contact_formContainer'>
 				<h2 className='form_title'>Contáctanos</h2>

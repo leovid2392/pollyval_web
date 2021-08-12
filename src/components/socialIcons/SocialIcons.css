@@ -1,0 +1,22 @@
+.social-iconsContainer {
+	display: block;
+}
+
+.icon-white,
+.icon-yellow,
+.icon-black {
+	display: grid;
+	align-items: center;
+}
+
+.icon-yellow {
+	color: var(--color-primary);
+}
+
+.icon-white {
+	color: var(--color-white);
+}
+
+.icon-black {
+	color: var(--color-dark);
+}
