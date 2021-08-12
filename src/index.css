@@ -73,6 +73,26 @@ a {
 	margin: 20px 0;
 }
 
+.icon-white,
+.icon-yellow,
+.icon-black {
+	display: grid;
+	align-items: center;
+}
+
+.icon-yellow {
+	color: var(--color-primary);
+}
+
+.icon-white {
+	color: var(--color-white);
+}
+
+.icon-black {
+	color: var(--color-dark);
+}
+/* <<<<<<<<<<<<<<<<<----GENERAL CLASES------>>>>>>>>>>>>>> */
+
 @media screen and (min-width: 540px) {
 	.sectionTitle {
 		font-size: 3rem;
@@ -108,5 +128,3 @@ a {
 		font-size: 12rem;
 	}
 }
-
-/* <<<<<<<<<<<<<<<<<----GENERAL CLASES------>>>>>>>>>>>>>> */

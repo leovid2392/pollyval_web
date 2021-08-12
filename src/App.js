@@ -9,6 +9,7 @@ import Navbar from "./navBar/Navbar";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
+import Contact from "./components/contact/Contact";
 
 // import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
 				{/* <Hero /> */}
 				<About />
 				<Services />
+				<Contact />
 			</main>
 			{/* <main>
 				<section className='App_hero'>
