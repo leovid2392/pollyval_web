@@ -21,6 +21,7 @@ function Services() {
 							formas de pago.
 						</p>
 					</div>
+					<div className='line'></div>
 				</article>
 				<article className='service service_reverse'>
 					<img
@@ -40,7 +41,7 @@ function Services() {
 				<article className='service'>
 					<img
 						className='service_image'
-						src='https://res.cloudinary.com/leovid23/image/upload/v1627771788/pollyval/home_hero_jbin55.png'
+						src='https://res.cloudinary.com/leovid23/image/upload/v1628905471/pollyval/service2_pwjrur.jpg'
 						alt='equipo de bienvenida'
 					/>
 					<div className='serviceText_container'>

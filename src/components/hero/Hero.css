@@ -1,3 +1,92 @@
+.home_hero {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+}
+
 .hero_imgContainer img {
-	height: 300px;
+	/* max-width: 800px; */
+	/* min-height: 400px; */
+	height: 400px;
+	max-height: 2000px;
+	object-fit: cover;
+}
+
+.hero_imgContainer {
+	/* max-width: 800px; */
+	/* background-image: url("https://res.cloudinary.com/leovid23/image/upload/v1628905470/pollyval/hero_garcii.jpg");
+	background-repeat: no-repeat; */
+}
+
+.home_title {
+	position: absolute;
+	top: 0;
+	font-size: 2rem;
+	color: var(--color-darkBlue);
+	margin-top: 5px;
+}
+
+@media screen and (min-width: 540px) {
+	.home_title {
+		font-size: 2.2rem;
+		margin-top: 60px;
+	}
+
+	.hero_imgContainer img {
+		height: 550px;
+	}
+}
+@media screen and (min-width: 700px) {
+	.home_title {
+		font-size: 2.9rem;
+		margin-top: 30px;
+		margin-top: 30px;
+	}
+
+	.hero_imgContainer img {
+		height: 500px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.home_title {
+		font-size: 4rem;
+		margin-top: 20px;
+	}
+
+	.hero_imgContainer img {
+		height: 600px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.home_title {
+		font-size: 4.2rem;
+	}
+}
+@media screen and (min-width: 1400px) {
+	.home_title {
+		font-size: 4.5rem;
+	}
+
+	.hero_imgContainer img {
+		height: 650px;
+	}
+}
+@media screen and (min-width: 2000px) {
+	.home_title {
+		font-size: 5rem;
+	}
+
+	.hero_imgContainer img {
+		height: 800px;
+	}
+}
+@media screen and (min-width: 2400px) {
+	.home_title {
+		font-size: 6.4rem;
+	}
+
+	.hero_imgContainer img {
+		height: 950px;
+	}
 }

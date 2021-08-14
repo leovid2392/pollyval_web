@@ -35,6 +35,12 @@
 	font-size: 1.3rem;
 }
 
+.line {
+	width: 150px;
+	height: 2px;
+	background: var(--color-grey);
+}
+
 @media screen and (min-width: 540px) {
 	.service {
 		position: relative;
