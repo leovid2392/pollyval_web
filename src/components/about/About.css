@@ -105,6 +105,7 @@
 
 	.misionVision_descriptionContainer {
 		width: 60%;
+		padding: 40px 20px;
 	}
 
 	.about_misionVision {
@@ -116,10 +117,10 @@
 	.about_text {
 		font-size: 1.4rem;
 	}
-}
 
-.misionVision_titleContainer button {
-	/* font-size: 1.6rem; */
+	.misionVision_descriptionContainer {
+		padding: 50px 20px;
+	}
 }
 
 @media screen and (min-width: 800px) {
@@ -158,7 +159,7 @@
 	}
 
 	.misionVision_descriptionContainer {
-		padding: 30px;
+		padding: 60px;
 		border-radius: 30px;
 	}
 
@@ -200,6 +201,7 @@
 
 	.misionVision_descriptionContainer {
 		border-radius: 40px;
+		padding: 80px;
 	}
 }
 
@@ -217,7 +219,7 @@
 	}
 
 	.misionVision_descriptionContainer {
-		padding: 50px;
+		padding: 120px;
 	}
 	.misionVision_text {
 		font-size: 2.7rem;
@@ -238,7 +240,7 @@
 	}
 
 	.misionVision_descriptionContainer {
-		padding: 80px;
+		/* padding: 0px; */
 	}
 	.misionVision_text {
 		font-size: 3rem;

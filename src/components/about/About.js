@@ -1,7 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./About.css";
 function About() {
+	// const [index, setIndex] = useState(1);
+	const [text, setText] = useState(
+		"mision Lorem ipsum dolor sit amet consectetur Somos una empresa líder capacitada para la reactivación de la cartera financiera de tus socios, renegociación, procesos y estadísticas."
+	);
+
+	const handleMision = () => {
+		setText(
+			"mision Lorem ipsum dolor sit amet consectetur Somos una empresa líder capacitada para la reactivación de la cartera financiera de tus socios, renegociación, procesos y estadísticas."
+		);
+	};
+	const handleVision = () => {
+		setText(
+			"vision Lorem ipsum dolor sit amet consectetur Somos una empresa líder capacitada para la reactivación de la cartera financiera de tus socios, renegociación, procesos y estadísticas."
+		);
+	};
+	const handleValores = () => {
+		setText(
+			"valores Lorem ipsum dolor sit amet consectetur Somos una empresa líder capacitada para la reactivación de la cartera financiera de tus socios, renegociación, procesos y estadísticas."
+		);
+	};
+
 	return (
 		<section className='home_about'>
 			<h1 className='sectionTitle'>¿Quienes somos?</h1>
@@ -25,21 +46,17 @@ function About() {
 			</section>
 			<section className='about_misionVision'>
 				<div className='misionVision_titleContainer'>
-					<button>misión</button>
-					<button>visión</button>
-					<button>valores</button>
+					<button onClick={handleMision}>misión</button>
+					<button onClick={handleVision}>visión</button>
+					<button onClick={handleValores}>valores</button>
 				</div>
 				<div className='misionVision_descriptionContainer'>
-					<p className='misionVision_text'>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
-						voluptas modi impedit deserunt pariatur, consectetur eaque ex nulla
-						hic distinctio ipsum? Animi incidunt ex perspiciatis totam illum
-						quod, quidem reprehenderit!
-					</p>
+					<p className='misionVision_text'>{text}</p>
 				</div>
 			</section>
 		</section>
 	);
 }
 
+const misionVision = ["mision", "vision", "valores"];
 export default About;
