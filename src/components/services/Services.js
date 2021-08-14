@@ -10,7 +10,7 @@ function Services() {
 				<article className='service'>
 					<img
 						className='service_image'
-						src='https://res.cloudinary.com/leovid23/image/upload/v1627771788/pollyval/home_hero_jbin55.png'
+						src='https://res.cloudinary.com/leovid23/image/upload/v1628955537/pollyval/service3_feptnm.jpg'
 						alt='equipo de bienvenida'
 					/>
 					<div className='serviceText_container'>
@@ -20,13 +20,13 @@ function Services() {
 							que puedan surgir referente al uso de la membresía, contratos,
 							formas de pago.
 						</p>
+						<div className='line'></div>
 					</div>
-					<div className='line'></div>
 				</article>
 				<article className='service service_reverse'>
 					<img
 						className='service_image'
-						src='https://res.cloudinary.com/leovid23/image/upload/v1627771788/pollyval/home_hero_jbin55.png'
+						src='https://res.cloudinary.com/leovid23/image/upload/v1628955528/pollyval/service1_rditra.jpg'
 						alt='equipo de bienvenida'
 					/>
 					<div className='serviceText_container'>
@@ -36,12 +36,13 @@ function Services() {
 							por procesar con el propósito de nutrir financieramente la cartera
 							de la empresa.
 						</p>
+						<div className='line'></div>
 					</div>
 				</article>
 				<article className='service'>
 					<img
 						className='service_image'
-						src='https://res.cloudinary.com/leovid23/image/upload/v1628905471/pollyval/service2_pwjrur.jpg'
+						src='https://res.cloudinary.com/leovid23/image/upload/v1628955532/pollyval/service4_k0dt4o.jpg'
 						alt='equipo de bienvenida'
 					/>
 					<div className='serviceText_container'>
@@ -52,12 +53,13 @@ function Services() {
 							Nuestro propósito es mantener el 85% de su cartera activa y el 15%
 							con solicitud de cancelación en renegociación.
 						</p>
+						<div className='line'></div>
 					</div>
 				</article>
 				<article className='service service_reverse'>
 					<img
 						className='service_image'
-						src='https://res.cloudinary.com/leovid23/image/upload/v1627771788/pollyval/home_hero_jbin55.png'
+						src='https://res.cloudinary.com/leovid23/image/upload/v1628905471/pollyval/service2_pwjrur.jpg'
 						alt='equipo de bienvenida'
 					/>
 					<div className='serviceText_container'>
@@ -67,12 +69,13 @@ function Services() {
 							dirección, gerentes, supervisores y personal autorizado con el
 							objetivo de facilitar el control de sus equipos de trabajo.
 						</p>
+						<div className='line'></div>
 					</div>
 				</article>
 				<article className='service'>
 					<img
 						className='service_image'
-						src='https://res.cloudinary.com/leovid23/image/upload/v1627771788/pollyval/home_hero_jbin55.png'
+						src='https://res.cloudinary.com/leovid23/image/upload/v1628955534/pollyval/service5_pr3cmt.jpg'
 						alt='equipo de bienvenida'
 					/>
 					<div className='serviceText_container'>
@@ -81,6 +84,7 @@ function Services() {
 							Aplicación de estrategias de comercialización para los medios
 							digitales: desarrollo web, social media, etc.
 						</p>
+						<div className='line'></div>
 					</div>
 				</article>
 			</div>
